@@ -1,0 +1,38 @@
+BorderPane {
+  -fx-background-color: #000;
+}
+
+.vertices {
+  -fx-border-radius: 35;
+  -fx-border-width: 3;
+  -fx-background-color: #009aff;
+  -fx-background-radius: 35;
+  -fx-effect: dropshadow(gaussian, #009aff, 5, 0.7, 0, 0);
+}
+
+.ativado {
+  -fx-background-color: #00ff9a;
+  -fx-effect: dropshadow(gaussian, #00ff9a, 25, 0.7, 0, 0);
+}
+
+.arestas {
+  -fx-stroke: #fca7e2;
+  -fx-stroke-width: 6;
+  -fx-effect: dropshadow(gaussian, #ff009a, 20, 0.7, 0, 0);
+  -fx-opacity: 0.85;
+}
+
+.arestas:hover {
+  -fx-opacity: 1; 
+}
+
+.botaoEnviar {
+  -fx-background-color: transparent;
+  -fx-text-fill: #fff;
+  -fx-font-weight: bold;
+  -fx-font-size: 15px;
+}
+
+.botaoEnviar:hover {
+  -fx-opacity: 0.8;
+}

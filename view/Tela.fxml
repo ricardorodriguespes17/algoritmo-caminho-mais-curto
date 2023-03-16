@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaController">
+   <center>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <Line fx:id="aresta01" endX="-24.0" endY="-60.0" layoutX="244.0" layoutY="169.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-114.0" startY="33.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <Line fx:id="aresta25" endX="79.0" layoutX="371.0" layoutY="378.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-92.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <Line fx:id="aresta13" endX="-23.0" endY="30.0" layoutX="359.0" layoutY="169.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-93.0" startY="-59.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <Line fx:id="aresta02" endX="-16.0" endY="36.0" layoutX="232.0" layoutY="316.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-102.0" startY="-61.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <Line fx:id="aresta23" endX="57.0" endY="-32.0" layoutX="279.0" layoutY="287.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-15.0" startY="62.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <Line fx:id="aresta34" endX="62.0" endY="-28.0" layoutX="398.0" layoutY="139.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-13.0" startY="61.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <Line fx:id="aresta56" endX="69.0" endY="-40.0" layoutX="518.0" layoutY="289.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-14.0" startY="74.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <Line fx:id="aresta35" endX="-16.0" endY="32.0" layoutX="481.0" layoutY="317.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-95.0" startY="-62.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <Line fx:id="aresta14" endX="79.0" layoutX="371.0" layoutY="82.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-92.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <Line fx:id="aresta46" endX="-28.0" endY="34.0" layoutX="607.0" layoutY="169.0" onMouseClicked="#ativarAresta" opacity="0.15" startX="-104.0" startY="-69.0" stroke="WHITE" strokeLineJoin="BEVEL" strokeMiterLimit="12.0" strokeWidth="3.0" styleClass="arestas">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Line>
+            <VBox fx:id="vertice0" alignment="CENTER" layoutX="69.0" layoutY="193.0" prefHeight="70.0" prefWidth="70.0" styleClass="vertices">
+               <children>
+                  <Label text="0">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="vertice1" alignment="CENTER" layoutX="209.0" layoutY="47.0" prefHeight="70.0" prefWidth="70.0" styleClass="vertices">
+               <children>
+                  <Label text="1">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="vertice2" alignment="CENTER" layoutX="209.0" layoutY="343.0" prefHeight="70.0" prefWidth="70.0" styleClass="vertices">
+               <children>
+                  <Label text="2">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="vertice5" alignment="CENTER" layoutX="450.0" layoutY="343.0" prefHeight="70.0" prefWidth="70.0" styleClass="vertices">
+               <children>
+                  <Label text="5">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="vertice6" alignment="CENTER" layoutX="568.0" layoutY="193.0" prefHeight="70.0" prefWidth="70.0" styleClass="vertices">
+               <children>
+                  <Label text="6">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="vertice3" alignment="CENTER" layoutX="324.0" layoutY="193.0" prefHeight="70.0" prefWidth="70.0" styleClass="vertices">
+               <children>
+                  <Label text="3">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="vertice4" alignment="CENTER" layoutX="450.0" layoutY="47.0" prefHeight="70.0" prefWidth="70.0" styleClass="vertices">
+               <children>
+                  <Label text="4">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="700.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" spacing="3.0">
+               <children>
+                  <Label text="Origem" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldOrigem" alignment="CENTER" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" promptText="0" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" spacing="3.0">
+               <children>
+                  <Label text="Destino" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="textFieldDestino" alignment="CENTER" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" promptText="6" />
+               </children>
+            </VBox>
+            <Button fx:id="botaoEnviar" mnemonicParsing="false" onAction="#enviarDados" prefHeight="70.0" prefWidth="70.0" styleClass="botaoEnviar" text="Enviar">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
