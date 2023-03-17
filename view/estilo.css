@@ -10,11 +10,6 @@ BorderPane {
   -fx-effect: dropshadow(gaussian, #009aff, 5, 0.7, 0, 0);
 }
 
-.ativado {
-  -fx-background-color: #00ff9a;
-  -fx-effect: dropshadow(gaussian, #00ff9a, 25, 0.7, 0, 0);
-}
-
 .arestas {
   -fx-stroke: #fca7e2;
   -fx-stroke-width: 6;
@@ -24,6 +19,19 @@ BorderPane {
 
 .arestas:hover {
   -fx-opacity: 1; 
+}
+
+.ativado {
+  -fx-background-color: #00ff9a;
+  -fx-stroke: #00ff9a;
+  -fx-effect: dropshadow(gaussian, #00ff9a, 25, 0.7, 0, 0);
+}
+
+.texto-peso-aresta {
+  -fx-background-color: transparent;
+  -fx-text-fill: #fff;
+  -fx-font-size: 15px;
+  -fx-pref-width: 30px;
 }
 
 .botaoEnviar {

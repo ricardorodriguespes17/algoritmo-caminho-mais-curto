@@ -12,7 +12,6 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaController">
    <center>
       <AnchorPane BorderPane.alignment="CENTER">
@@ -130,6 +129,16 @@
                   </Label>
                </children>
             </VBox>
+            <TextField fx:id="pesoAresta01" alignment="CENTER" layoutX="148.0" layoutY="117.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
+            <TextField fx:id="pesoAresta14" alignment="CENTER" layoutX="350.0" layoutY="47.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
+            <TextField fx:id="pesoAresta13" alignment="CENTER" layoutX="276.0" layoutY="156.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
+            <TextField fx:id="pesoAresta23" alignment="CENTER" layoutX="276.0" layoutY="271.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
+            <TextField fx:id="pesoAresta02" alignment="CENTER" layoutX="148.0" layoutY="306.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
+            <TextField fx:id="pesoAresta34" alignment="CENTER" layoutX="423.0" layoutY="156.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
+            <TextField fx:id="pesoAresta35" alignment="CENTER" layoutX="423.0" layoutY="271.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
+            <TextField fx:id="pesoAresta46" alignment="CENTER" layoutX="546.0" layoutY="133.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
+            <TextField fx:id="pesoAresta56" alignment="CENTER" layoutX="546.0" layoutY="302.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
+            <TextField fx:id="pesoAresta25" alignment="CENTER" layoutX="350.0" layoutY="381.0" prefHeight="20.0" prefWidth="25.0" styleClass="texto-peso-aresta" text="1" />
          </children>
       </AnchorPane>
    </center>
